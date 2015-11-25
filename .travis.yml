@@ -4,5 +4,5 @@ install:
   - nuget restore ./Challenge/Challenge.sln
   - nuget install NUnit.Runners -Version 3.0 -OutputDirectory testrunner
 script:
-  - xbuild /p:Configuration=Release Challenge.sln
-  - mono ./testrunner/NUnit.Runners.2.6.4/tools/nunit-console.exe ./Challenge/Challenge.Tests/bin/Release/Challenge.Tests.dll
+  - xbuild /p:Configuration=Release ./Challenge/Challenge.sln
+  - mono ./testrunner/NUnit.Runners.3.0.0/tools/nunit-console.exe ./Challenge/Challenge.Tests/bin/Release/Challenge.Tests.dll
