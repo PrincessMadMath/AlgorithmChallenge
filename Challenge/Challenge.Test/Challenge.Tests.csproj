@@ -7,8 +7,8 @@
     <ProjectGuid>{E03EE244-B479-4B41-A27D-435C598F377E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Challenge.Test</RootNamespace>
-    <AssemblyName>Challenge.Test</AssemblyName>
+    <RootNamespace>Challenge.Tests</RootNamespace>
+    <AssemblyName>Challenge.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -52,11 +52,11 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Challenge\Challenge.csproj">
+    <ProjectReference Include="..\Challenge.csproj">
       <Project>{0c5cf659-8eaa-4e49-a661-c4229455b061}</Project>
       <Name>Challenge</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Challenge\Utils\Utils.csproj">
+    <ProjectReference Include="..\Utils\Utils.csproj">
       <Project>{1a644d68-e973-4cbe-b2d8-831cf4b65f1c}</Project>
       <Name>Utils</Name>
     </ProjectReference>

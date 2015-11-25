@@ -1,7 +1,7 @@
 ﻿using NUnit.Framework;
 using Utils;
 
-namespace Challenge.Test
+namespace Challenge.Tests
 {
     [TestFixture]
     public class HamiltonianPathTest

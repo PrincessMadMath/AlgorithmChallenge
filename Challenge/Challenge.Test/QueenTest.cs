@@ -1,6 +1,6 @@
 ﻿using NUnit.Framework;
 
-namespace Challenge.Test
+namespace Challenge.Tests
 {
     [TestFixture]
     public class QueenTest
