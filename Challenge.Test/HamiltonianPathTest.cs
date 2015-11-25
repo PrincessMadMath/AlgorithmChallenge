@@ -1,17 +1,17 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using NUnit.Framework;
 using Utils;
 
-namespace Challenge.Tests
+namespace Challenge.Test
 {
-    [TestClass()]
-    public class HamiltonianPathProblemTests
+    [TestFixture]
+    public class HamiltonianPathTest
     {
-        [TestMethod()]
+        [Test]
         public void IsValidTest()
         {
             // Cycle exist
             var graphe = new Graphe(4);
-            graphe.AddConnection(0,1);
+            graphe.AddConnection(0, 1);
             graphe.AddConnection(1, 2);
             graphe.AddConnection(2, 3);
             graphe.AddConnection(3, 0);

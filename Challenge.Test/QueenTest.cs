@@ -1,17 +1,11 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Challenge;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using NUnit.Framework;
 
-namespace Challenge.Tests
+namespace Challenge.Test
 {
-    [TestClass()]
-    public class QueensProblemTests
+    [TestFixture]
+    public class QueenTest
     {
-        [TestMethod()]
+        [Test]
         public void ValideNewQueenPositionTest()
         {
             int[] board = new int[] { 1, 3, 0 };
